@@ -14,11 +14,8 @@ class Widget : public QWidget
 public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
-
 signals:
-    void SendMsg(QString str);
-public slots:
-    void ButtonClicked();
+    void SendVoid();
 
 private:
     Ui::Widget *ui;

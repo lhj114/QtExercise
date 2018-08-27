@@ -6,15 +6,9 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
-    connect(ui->pushButton, &QPushButton::clicked, this, &Widget::ButtonClicked);
 }
 
 Widget::~Widget()
 {
     delete ui;
-}
-
-void Widget::ButtonClicked()
-{
-    emit SendMsg(tr("4399"));
 }

@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-08-22T14:52:59
+# Project created by QtCreator 2018-08-27T09:13:54
 #
 #-------------------------------------------------
 
@@ -8,15 +8,13 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = qobjcom
+TARGET = dynamicporos
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp \
-    cshowmsg.cpp
+        widget.cpp
 
-HEADERS  += widget.h \
-    cshowmsg.h
+HEADERS  += widget.h
 
 FORMS    += widget.ui

@@ -1,13 +1,13 @@
 #include "widget.h"
 #include <QApplication>
-#include "cshowmsg.h"
+#include "cshowvoid.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     Widget w;
-    CShowMsg s;
-    QObject::connect(&w, &Widget::SendMsg, &s,&CShowMsg::RecvMsg);
+    CShowVoid s;
+    QObject::connect(&w, &Widget::SendVoid, &s, &CShowVoid::RecvVoid);
     w.show();
 
     return a.exec();

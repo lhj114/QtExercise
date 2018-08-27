@@ -14,11 +14,9 @@ class Widget : public QWidget
 public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
-
-signals:
-    void SendMsg(QString str);
-public slots:
-    void ButtonClicked();
+    Q_CLASSINFO("Version", "1.0.0")
+    Q_CLASSINFO("Author", "Winland")
+    Q_CLASSINFO("Site", "www.lhj.com")
 
 private:
     Ui::Widget *ui;

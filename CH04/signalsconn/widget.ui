@@ -16,14 +16,14 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>100</y>
-     <width>131</width>
-     <height>21</height>
+     <x>150</x>
+     <y>120</y>
+     <width>80</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>发送自定义消息</string>
+    <string>信号接力触发</string>
    </property>
   </widget>
  </widget>
